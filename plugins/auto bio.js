@@ -2,7 +2,7 @@
 
  */
 
-const Raashii = require('../events');
+const inrl = require('../events');
 
 const config = require('../config');
 
@@ -42,7 +42,7 @@ if (config.LANG == 'ML') {
 
 }
 
-Raashii.addCommand({ pattern: 'autobio ?(.*)', fromMe: true, desc: rashi_desc, usage: '.autobio on / off' }, (async (message, match) => {
+inrl.addCommand({ pattern: 'autobio ?(.*)', fromMe: true, desc: rashi_desc, usage: '.autobio on / off' }, (async (message, match) => {
 
   if (match[1] == 'off') {
 
