@@ -1,10 +1,10 @@
-const Prince = require('../events');
+const inrl = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-    Prince.addCommand({pattern: 'owner', fromMe: true, desc: 'shows the detail of bot owner'}, (async (message, match) => {
+    inrl.addCommand({pattern: 'owner', fromMe: true, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
         if (message.jid === '15369524516-1612300121@g.us') {
 
@@ -22,7 +22,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Prince.addCommand({pattern: 'owner', fromMe: false, desc: 'shows the detail of bot owner'}, (async (message, match) => {
+    inrl.addCommand({pattern: 'owner', fromMe: false, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
         if (message.jid === '54218542512-1612300121@g.us') {
 
