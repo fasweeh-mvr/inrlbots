@@ -1,13 +1,13 @@
 /* Codded by @phaticusthiccy
 Telegram: t.me/phaticusthiccy
-Instagram: www.instagram.com/kyrie.baran 
+Instagram: www.instagram.com/mhd_fasweeh 
 */
 
 const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
-const dd = "ᴍᴀᴅᴇ ʙʏ ᴘʀɪɴᴄᴇʀᴜᴅʜ"
+const dd = "ᴍᴀᴅᴇ ʙʏ fasweeh"
 
 const Language = require('../language');
 const Lang = Language.getString('weather');
