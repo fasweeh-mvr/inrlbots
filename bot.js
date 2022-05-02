@@ -7,7 +7,7 @@ WhatsAsena - Yusuf Usta
 const fs = require("fs");
 const path = require("path");
 const events = require("./events");
-const ameer = require("./ameer");
+const fasweeh = require("./fasweeh");
 const pikachu = require('./inrlbot');
 const { FakeDB, takeMessage } = require("./plugins/sql/fake");
 const chalk = require('chalk');
