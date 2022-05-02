@@ -194,12 +194,12 @@
         "SONGD": {
             "description": "Customizable song DOWNLOADING message instead of 'Dowloading your song'",
             "required": true,
-            "value": "✮⃝🎸ρ𝓲𝘬ꪖᥴꫝꪊ ᦔꪮ᭙ꪀꪶꪮꪖᦔ𝓲ꪀᧁ ꪗꪮꪊ𝘳 𝘴ꪮꪀᧁ✮⃝🎧"
+            "value": "✮⃝🎸 inrl downloding song✮⃝🎧"
         },
         "SONGU": {
             "description": "Customizable song UPLOADING message instead of 'Uploading your song'",
             "required": true,
-            "value": "✮⃝🎸  ✮⃝🎧"
+            "value": "✮⃝🎸 inrl uploding song✮⃝🎧"
         },
         "ADD_MESSAGE": {
             "description": "Customizable Add Message! Use => default, to change back.",
