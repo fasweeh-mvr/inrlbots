@@ -1,0 +1,5 @@
+build:
+  docker:
+      worker: /inrlbot/Dockerfile
+run:
+   worker: npm start
