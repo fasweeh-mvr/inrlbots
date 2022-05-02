@@ -1,15 +1,15 @@
 {
     "name": "PIKACHU",
-    "description": "Pikachu is the Modified Version of WhatsAsena, Made By @Ameer Suhail with Baileys.",
+    "description": "inrl is the Modified Version of WhatsAsena, Made By @fasweeh with Baileys.",
     "logo": "https://i.imgur.com/SoIxkUE.jpeg",
-    "keywords": ["whatsapp", "userbot", "pikachu", "WhatsAsena", "pikachu", "bot", "ai"],
+    "keywords": ["whatsapp", "userbot", "inrlbot", "WhatsAsena", "inrlbots", "bot", "ai"],
     "repository": "https://github.com/ameer-kallumthodi/pikachu",
     "website":   "https://github.com/ameer-kallumthodi/pikachu",
     "success_url": "https://github.com/ameer-kallumthodi/pikachu",
     "stack": "container",
     "env": {
-        "PIKACHU_SESSION": {
-            "description": "Type here yours Pikachu Session.",
+        "INRL_SESSION": {
+            "description": "Type here yours inrl Session.",
             "required": true
         },
         "SUDO": {
@@ -199,7 +199,7 @@
         "SONGU": {
             "description": "Customizable song UPLOADING message instead of 'Uploading your song'",
             "required": true,
-            "value": "✮⃝🎸ρ𝓲𝘬ꪖᥴꫝꪊ ꪊρꪶꪮꪖᦔ𝓲ꪀᧁ ꪗꪮꪊ𝘳 𝘴ꪮꪀᧁ ✮⃝🎧"
+            "value": "✮⃝🎸  ✮⃝🎧"
         },
         "ADD_MESSAGE": {
             "description": "Customizable Add Message! Use => default, to change back.",
