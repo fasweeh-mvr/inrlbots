@@ -1,4 +1,3 @@
-
 RUN git clone https://github.com/fasweeh-mvr/inrlbots /root/WhatsAsenaDuplicated
 
 WORKDIR /root/WhatsAsenaDuplicated/
