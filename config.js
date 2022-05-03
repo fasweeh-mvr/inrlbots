@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
 
-re edited FASWEEH
+re edited princerudh & Ameer Suhail
 */
 
 const { Sequelize } = require('sequelize');
@@ -18,7 +18,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v8.0.0',
     CHANNEL: 'https://t.me/remasterplugin',
-    SESSION: process.env.iNRL_SESSION === undefined ? '' : process.env.INRL_SESSION,
+    SESSION: process.env.PIKACHU_SESSION === undefined ? '' : process.env.PIKACHU_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
@@ -30,8 +30,8 @@ module.exports = {
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     WELCOME: process.env.WELCOME === undefined ? 'pp' : process.env.WELCOME,
     OWNER: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
-    ALL: process.env.ALL_CAPTION === undefined ? 'ᴍᴀᴅᴇ ʙʏ fasweeh' : process.env.ALL_CAPTION,
-    MENTION: process.env.TAG_REPLY === undefined ? '916235261803@s.whatsapp.net' : process.env.TAG_REPLY,
+    ALL: process.env.ALL_CAPTION === undefined ? 'ᴍᴀᴅᴇ ʙʏ ᴀᴍᴇᴇʀ ꜱᴜʜᴀɪʟ' : process.env.ALL_CAPTION,
+    MENTION: process.env.TAG_REPLY === undefined ? '919946432377@s.whatsapp.net' : process.env.TAG_REPLY,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     PLKS: process.env.THERI_LIST === undefined ? false : process.env.THERI_LIST,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
@@ -39,11 +39,11 @@ module.exports = {
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
     STICKERP: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
     DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
-    BOTNAME: process.env.BOT_NAME === undefined ? '  ⚡inrl⚡  \n\n   *ωнαтsαρρ вσт™*   \n' : process.env.BOT_NAME,
+    BOTNAME: process.env.BOT_NAME === undefined ? '  ⚡℘їкѦ¢ℌʊ⚡  \n\n   *ωнαтsαρρ вσт™*   \n' : process.env.BOT_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
     THERI_KICK: process.env.THERI_KICK === undefined ? 'false' : process.env.THERI_KICK,
-    SONGD: process.env.SONGD === undefined ? '✮⃝🎸 inrl downloding song✮⃝🎧' : process.env.SONGD,
-    SONGU: process.env.SONGU === undefined ? '✮⃝🎸 inrl uploding song✮⃝🎧' : process.env.SONGU,
+    SONGD: process.env.SONGD === undefined ? '✮⃝🎸ρ𝓲𝘬ꪖᥴꫝꪊ ᦔꪮ᭙ꪀꪶꪮꪖᦔ𝓲ꪀᧁ ꪗꪮꪊ𝘳 𝘴ꪮꪀᧁ✮⃝🎧' : process.env.SONGD,
+    SONGU: process.env.SONGU === undefined ? '✮⃝🎸ρ𝓲𝘬ꪖᥴꫝꪊ ꪊρꪶꪮꪖᦔ𝓲ꪀᧁ ꪗꪮꪊ𝘳 𝘴ꪮꪀᧁ ✮⃝🎧' : process.env.SONGU,
     FULLEVA: process.env.FULL_EVA === undefined ? 'false' : process.env.FULL_EVA,
     BLOCKMSG: process.env.BLOCK_MESSAGE === undefined ? 'default' : process.env.BLOCK_MESSAGE,
     UNBLOCKMSG: process.env.UNBLOCK_MESSAGE === undefined ? 'default' : process.env.UNBLOCK_MESSAGE,
@@ -59,15 +59,15 @@ module.exports = {
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     TAGPLK: process.env.TAG_HEADER === undefined ? 'Note this' : process.env.TAG_HEADER,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
-    YAK: process.env.YAK === undefined ? '917025099161,0' : process.env.YAK,
-    OWNERSHIP: process.env.OWNER_SHIP === undefined ? 'fasweeh' : process.env.OWNER_SHIP,
+    YAK: process.env.YAK === undefined ? '919946432377,0' : process.env.YAK,
+    OWNERSHIP: process.env.OWNER_SHIP === undefined ? 'Ameer Suhail' : process.env.OWNER_SHIP,
     LOGO: process.env.LOGO_LINK === undefined ? 'https://i.imgur.com/SoIxkUE.jpeg' : process.env.LOGO_LINK,
-    BOTV2: process.env.BOTV2_NAME === undefined ? '⚡inrlbot⚡' : process.env.BOTV2_NAME,
-    INRL_AI: process.env.INRL_AI === undefined ? 'false' : process.env.INRL_AI,
+    BOTV2: process.env.BOTV2_NAME === undefined ? '⚡℘їкѦ¢ℌʊ⚡' : process.env.BOTV2_NAME,
+    PIKACHU_AI: process.env.PIKACHU_AI === undefined ? 'false' : process.env.PIKACHU_AI,
     ALIVEBUTTON: process.env.ALIVEBUTTON === undefined ? 'ʜᴇʟʟᴏ ʙʀᴏ' : process.env.ALIVEBUTTON,
     ALIVE_BUTTON: process.env.ALIVE_BUTTON === undefined ? 'ʜɪ ᴅᴜᴅᴇ' : process.env.ALIVE_BUTTON,
     LG_LOGO: process.env.LG_LOGO === undefined ? 'https://telegra.ph/file/7524baa6ad51f38a69d63.jpg' : process.env.LG_LOGO,
-    LOGO_NAME: process.env.LOGO_NAME === undefined ? '⚡inrl⚡' : process.env.LOGO_NAME,
+    LOGO_NAME: process.env.LOGO_NAME === undefined ? '⚡℘їкѦ¢ℌʊ⚡' : process.env.LOGO_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'true' : process.env.NO_LOG,
     NU: process.env.NUMBER === undefined ? false : process.env.NUMBER,
     BRANCH: 'master',
