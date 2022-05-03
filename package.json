@@ -2,7 +2,7 @@
   "name": "inrlbot",
   "version": "7.3.6",
   "description": "inrlbot is the Modified Version of WhatsAsena.",
-  "main": "./pikachu/bot.js",
+  "main": "./inrlbot/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
